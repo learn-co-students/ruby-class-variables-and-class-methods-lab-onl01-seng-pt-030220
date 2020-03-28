@@ -40,11 +40,12 @@ def self.genre_count
      end
 
     end
-  @@genre_count
+    @@genre_count
 
 end
 
 def self.artist_count
+
   count=0
   @@artists.each do |key|
      po=@@artists.pop
@@ -56,7 +57,8 @@ def self.artist_count
    end
 
   end
-@@artist_count
+  
+  @@artist_count
 
 end
 
