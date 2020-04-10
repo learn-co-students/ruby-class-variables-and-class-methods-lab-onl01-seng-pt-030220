@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 
 class Song
@@ -42,3 +43,4 @@ class Song
   end
 
 end
+
